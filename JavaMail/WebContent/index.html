@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login</title>
+<link rel="stylesheet" type="text/css" href="Mail.css">  
+<script src="https://use.fontawesome.com/ff8702c92a.js"></script>
+</head>
+<body>
+<div id="header" >
+<header>
+<img src = "8fc37b74b608a622588fbaa361485f32.png">
+<h1>Lender Application</h1>
+</header>
+</div>
+<div id="Login">
+<h2>Welcome To Login Page</h2>
+<form name = "loginform" action="LoginServlet" method="POST">
+<span>Username:</span><input type="email" name="username" placeholder="Username" required/><br/><br/>			
+<span>Password:</span><input type="password" name="userpass" placeholder="Password" required/><br/><br/>
+<input type="submit" value="Login" onclick = "WriteCookie()" />
+</form>
+</div>
+<div id="footer">
+<h3><i class="fa fa-copyright" aria-hidden="true"></i>intellectinfo</h3>
+<span>
+Email Id:intellectinfo@gmail.com<br> 
+Mobile No:9876543210
+</span>
+ </div>
+</body>
+</html>
